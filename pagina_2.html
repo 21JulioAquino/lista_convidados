@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pagina_2.css">
+    <link rel="shortcut icon" href="../1_imagens/favicon_.ico" type="image/x-icon">
+    <title>Lista de Convidados</title>
+</head>
+<body>
+    <div class="paralax">
+        <header class="header">
+            <nav>
+                <P>
+                    <em>
+                        "Queridos amigos, estamos ansiosos para compartilhar este momento especial com vocês! Por favor, confirmem a presença ou ausência de vocês e de suas famílias até o <strong>dia 20 de Dezembro de 2024</strong> para que possamos nos preparar adequadamente.<br> 
+                        Aguardamos vocês com muita alegria!"
+                    </em>
+                </P>
+            </nav>
+        </header>
+            <div class="container">
+                <h1>Lista de Convidados</h1>
+                <div class="guest-list">
+                    <div class="section">
+                        <h2>Confime sua presença ou ausência</h2>
+                        <form id="guestForm">
+                            <label for="convidado">Nome:
+                                <select name="convidado" id="convidado">
+                                    <option value="#"></option>
+                                    <option value="Júlio Aquino">Júlio Aquino</option>
+                                    <option value="Nicolle Santos">Nicolle Santos</option>
+                                    <option value="Raimundo Santos">Raimundo Santos</option>
+                                    <option value="Valeria Santos">Valeria Santos</option>
+                                </select>
+                            </label>
+                            <label for="confirmar">Estará presente?
+                                <select name="confirmar" id="confirmar">
+                                    <option value="Sim">Sim</option>
+                                    <option value="Não">Não</option>
+                                </select>
+                            </label>
+                            <input type="submit" value="Salvar">
+                            <input type="reset" value="Limpar">
+                        </form>
+                    </div>
+        
+                    <div class="confirmados">
+                        <h3>Estarão presentes</h3>
+                        <ul id="confirmed-guests"></ul>
+                    </div>
+                    <div class="excluir">
+                        <h3>Não poderão estar presentes</h3>
+                        <ul id="excluded-guests"></ul>
+                    </div>
+                </div>
+            </div>
+        <script src="Pagina_2.js"></script>          
+    </div>
+</body>
+</html>
