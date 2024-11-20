@@ -1,0 +1,123 @@
+body {
+    font-family: futura bk bt, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.paralax {
+    background-image: url(1_imagens/1_imagem.jpg);
+    min-height: 100vh;
+    width: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header Styles */
+
+.header {
+    height: auto;
+    width: 90%;
+    padding: 2%;
+    font-size: 1.8em;
+    color: #303030;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+}
+
+.header nav {
+    border:  1px solid #d8d7d7;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(156, 153, 151, 0.9);
+    padding: 0.5%;
+    margin: 0 auto;
+}
+
+.product h1{
+font-size: 1.8rem;
+}
+
+.product p{
+    font-size: 1.5rem;
+    }
+
+.product {
+    width: 86%;
+    padding: 0.5%;
+    color: #303030;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    background-color: rgba(156, 153, 151, 0.9);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#input_2 {
+    position: fixed;
+    right: 330px;
+    bottom: 30px;
+    z-index: 1000;
+    padding: 8px 0.2px;
+    font-size: px;
+    height: auto;
+    width: auto;
+}
+
+.button-presentear {
+    text-decoration: none;
+
+    position: fixed;
+    right: 110px;
+    bottom: 15px;
+    cursor: pointer;
+
+    display: flex;    
+    align-items: center;    
+    justify-content: center;
+
+    color: #eeecec;
+    border: 2px solid #eeecec;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #3d3939;
+}
+
+/* Media Queries para ajustes em diferentes tamanhos de tela */
+@media (max-width: 768px){
+
+    .header{
+        font-size: 1rem;
+    }
+
+    .product h1{
+        font-size: 1rem;
+        }
+
+    .button-presentear {
+        right: 8px;
+        bottom: 8px;
+        width: 55px;
+        height: 55px;
+    }
+
+    #input_2 {
+        bottom: 8px;
+        padding: 8px 0.2px;
+        right: 100px;
+        bottom: 11px;
+        font-size: px;
+        height: auto;
+        width: auto;
+    }
+
+    .product p{
+        font-size: 0.8rem;
+        }
+}
