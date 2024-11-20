@@ -1,14 +1,12 @@
 {
   "name": "pag_2",
   "version": "1.0.0",
-  "main": "pag_2.html",
-  "scripts": { "build": "react-scripts build"},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": 
-  {"react": "^17.0.1", 
-  "react-dom": "^17.0.1", 
-  "react-scripts": "4.0.3"}
+  "scripts": {
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.3"
+  }
 }
