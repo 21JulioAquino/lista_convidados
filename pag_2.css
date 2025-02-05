@@ -114,7 +114,7 @@ font-size: 1.8rem;
     text-decoration: none;
 
     position: fixed;
-    right: 1095px;
+    left: 128px;
     bottom: 32px;
     cursor: pointer;
 
@@ -134,7 +134,7 @@ font-size: 1.8rem;
     text-decoration: none;
 
     position: fixed;    
-    right: 1070px;
+    left: 95px;
     bottom: 15px;    
     cursor: pointer;
 
