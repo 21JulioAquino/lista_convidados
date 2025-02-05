@@ -110,6 +110,47 @@ font-size: 1.8rem;
     background-color: #3d3939;
 }
 
+.button-presentear_3 {
+    text-decoration: none;
+
+    position: fixed;
+    right: 1095px;
+    bottom: 32px;
+    cursor: pointer;
+
+    display: flex;    
+    align-items: center;    
+    justify-content: center;
+
+    color: #eeecec;
+    border: 2px solid #eeecec;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #3d3939;
+}
+
+.button-flutuante_4 {
+    text-decoration: none;
+
+    position: fixed;    
+    right: 1070px;
+    bottom: 15px;    
+    cursor: pointer;
+
+    display: flex;    
+    align-items: center;    
+    justify-content: center;
+
+    color: #eeecec;
+    border: 2px solid #eeecec;    
+    width: 140px;    
+    height: 30px;    
+    border-radius: 5px;    
+    font-size: 18px;    
+    background-color: #3d3939;
+}
+
 /* Media Queries para ajustes em diferentes tamanhos de tela */
 @media (max-width: 768px){
 
@@ -122,8 +163,8 @@ font-size: 1.8rem;
         }
 
     .button-presentear {
-        right: 8px;
-        bottom: 8px;
+        right: 17px;
+        bottom: 32px;
         width: 55px;
         height: 55px;
     }
@@ -143,7 +184,23 @@ font-size: 1.8rem;
         }
     
     .button-flutuante_2 {
-        height: auto;
-        width: auto;
+        right: 7px;
+        bottom: 10px;
+        width: 80px;
+        height: 25px;
+    }
+
+    .button-presentear_3 {
+        left: 55px;
+        bottom: 30px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .button-flutuante_4 {
+        left: 17px;
+        bottom: 10px;
+        width: 138px;
+        height: 25px;
     }
 }
